@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data files - Don't upload large CSVs to GitHub
+data/raw/*.csv
+data/processed/*.csv
+
+# Models - Keep small files like images
+models/*.pkl
+!models/*.png
+!models/*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+kaggle.json
+
+# Temporary
+*.tmp
+*.bak
