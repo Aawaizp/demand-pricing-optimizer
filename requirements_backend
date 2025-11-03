@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+numpy>=1.26
+pandas>=2.0
+scikit-learn
+xgboost
+joblib
+pyarrow
+python-dotenv
